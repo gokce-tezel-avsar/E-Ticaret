@@ -7,23 +7,20 @@ import Services from '../components/Services'
 import TopProducts from '../components/TopProducts'
 import FeaturedPost from '../components/FeaturedPost'
 
+
 function PageContent() {
   return (
     <div>
-
      <Brands/>
-    <TopProducts/>
+     <TopProducts/>
      <BestSellerProducts/>
      <FeaturedProduct/>
-   <Services/>
-   <FeaturedPost/>
-</div>
+     <Services/>
+     <FeaturedPost/>
+  
+   
+    </div>
   )
 }
 
 export default PageContent
-/*
-başlıkların rengi #252b42
-gri renkli yazılar #737373
-#bdbdbd pricing açık renkli
-#3f866d pricing yeşil*/

@@ -1,10 +1,13 @@
 import React from 'react';
 import colors from '../assets/featuredPost/colors.png';
 import sea from '../assets/featuredPost/sea.png';
-import { AlarmClock, ChartArea } from 'lucide-react';
+import { AlarmClock,Clock,ChartArea,ChartSpline, ChevronRight } from 'lucide-react';
+import palmtree from "../assets/featuredPost/palmtree.png"
+
 
 function FeaturedPost() {
   return (
+
     <div className="flex flex-col items-center justify-center p-10 gap-10">
      
       <section className="text-center mb-8">
@@ -14,7 +17,7 @@ function FeaturedPost() {
         </h2>
       </section>
 
-     <div className='flex flex-col sm:flex-row'>
+     <div className='flex flex-col sm:flex-row sm:gap-x-10'>
       <section className="relative max-w-md w-full">
 
        <div>
@@ -98,8 +101,8 @@ function FeaturedPost() {
        </div>
      </section>
      </div>
-
-    </div>
+     </div>
+   
   );
 }
 

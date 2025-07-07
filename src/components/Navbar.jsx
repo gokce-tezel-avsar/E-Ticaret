@@ -5,7 +5,7 @@ import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/fre
 
 function Navbar() {
   return (
-    <div className="hidden sm:block w-full bg-gray-800 text-white text-sm py-3">
+    <div className="hidden sm:block w-full bg-gray-800 text-white text-sm py-3 px-20">
       <div className="px-10 flex justify-between items-center">
         
         <div className="flex items-center gap-5 ">
@@ -19,12 +19,12 @@ function Navbar() {
         </div>
         </div>
 
-        {/* Orta: Duyuru */}
+
         <div className="text-center">
           <span>Follow Us and get a chance to win 80% off</span>
         </div>
 
-        {/* Sağ: Sosyal Medya */}
+      
         <div className="flex items-center gap-2">
           <span>Follow Us:</span>
           <div className="flex gap-2">

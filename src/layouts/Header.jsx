@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AlignJustify, Search, ShoppingCart, UserRound, Heart, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
      <Navbar/>
-      <header className="bg-white py-4 px-10 w-full flex-col align-center">
+      <header className="bg-white py-4 px-10 sm:px-30 w-full flex-col align-center">
         <div className="flex justify-between items-center w-full">
           <div className='sm:flex sm:flex-row sm:items-center sm:gap-30'>
           <h3 className="text-2xl text-[#252b42] font-bold">Bandage</h3>
@@ -29,7 +29,7 @@ function Header() {
           <div className="flex items-center gap-4 sm:text-md ">     
             <div className="hidden sm:flex items-center gap-1">
               <UserRound className="text-blue-500 sm:w-5 sm:h-5" />
-              <span className="text-blue-500 font-medium sm:inline">Login / Register</span>
+              <Link to="/login" ><span className="text-blue-500 font-medium sm:inline">Login / Register</span></Link>
             </div>
 
            
@@ -55,7 +55,7 @@ function Header() {
 
       
         {isOpen && (
-          <nav className="flex mt-2 text-[#737373] bg-white p-6 sm:hidden flex-col gap-3 text-center">
+          <nav className="flex mt-2 text-[#737373] bg-white p-6 sm:hidden text-xl font-semibold flex-col gap-3 text-center">
             <Link to="/home">Home</Link>
             <Link to="/product">Product</Link>
             <Link to="/pricing">Pricing</Link>
@@ -63,7 +63,7 @@ function Header() {
           </nav>
         )}
       </header>
-   <Hero/>
+  
     </>
   );
 }

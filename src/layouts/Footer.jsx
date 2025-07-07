@@ -21,7 +21,7 @@ function Footer() {
     
      <FooterBar/>
     
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 gap-8 pt-20 pb-10">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 sm:px-30 gap-8 pt-20 pb-10">
         <section className="flex flex-col min-w-[150px]">
           <h3 className="font-bold mb-2 text-[#252b42]">Company Info</h3>
           <Link className="text-[#737373]" to="">About Us</Link>
