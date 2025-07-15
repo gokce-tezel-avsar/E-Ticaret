@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom/cjs/react-router-dom'
 import { Redirect, Router, Switch } from 'react-router-dom/cjs/react-router-dom.min'
 import ShopPage from './pages/ShopPage'
 import ProductDetailPage from './pages/ProductDetailPage'
+import ContactPage from './pages/ContactPage'
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
                     </Route>
                     <Route exact path='/productDetail'>
                       <ProductDetailPage/>
+                    </Route>
+                    <Route exact path='/contact'>
+                      <ContactPage/>
                     </Route>
           </Switch>
     </>
