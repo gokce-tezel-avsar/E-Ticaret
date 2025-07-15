@@ -1,14 +1,15 @@
 import React from 'react'
-import Header from '../layouts/Header'
+
 import Footer from '../layouts/Footer'
 import TeamComponent from '../components/TeamComponent'
 import TeamMembers from '../components/TeamMembers'
 import FreeTrial from '../components/FreeTrial'
+import AlternativeHeader from '../layouts/AlternativeHeader'
 
 function TeamPage() {
   return (
     <div>
-        <Header/>
+        <AlternativeHeader/>
         <TeamComponent/>
         <TeamMembers/>
         <FreeTrial/>
