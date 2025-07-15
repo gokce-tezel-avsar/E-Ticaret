@@ -1,10 +1,11 @@
 import React from 'react'
 import HomePage from './pages/HomePage'
 import { Route } from 'react-router-dom/cjs/react-router-dom'
-import { Redirect, Router, Switch } from 'react-router-dom/cjs/react-router-dom.min'
+import { Redirect, Switch } from 'react-router-dom/cjs/react-router-dom.min'
 import ShopPage from './pages/ShopPage'
 import ProductDetailPage from './pages/ProductDetailPage'
 import ContactPage from './pages/ContactPage'
+import TeamPage from './pages/TeamPage'
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
                     </Route>
                     <Route exact path='/contact'>
                       <ContactPage/>
+                    </Route>
+                    <Route exact path='/team'>
+                      <TeamPage/>
                     </Route>
           </Switch>
     </>
