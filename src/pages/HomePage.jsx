@@ -12,7 +12,7 @@ function HomePage() {
       <Hero/>
       <PageContent/>
       <Footer/>
-      </div>
+    </div>
 
   )
 }

@@ -8,7 +8,6 @@ function ShopFilter() {
     const handleSubmit = (e) => {
       e.preventDefault();
       setFilter(filter);
-
     };
   return (
     <div className='flex flex-col items-center gap-y-4 py-10 sm:flex sm:flex-row sm:gap-100 '>

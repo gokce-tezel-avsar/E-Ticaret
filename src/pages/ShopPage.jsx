@@ -8,16 +8,18 @@ import ProductCard from '../components/ProductCard'
 import Pagination from '../components/Pagination'
 
 
-function ShopPage() {
+function ShopPage(props) {
+  const {className} = props;
   return (
     <div className="flex flex-col items-center bg-white w-full">
         <Header/>
         <ShopCategoryList/>
         <ShopFilter/>
         <ProductCard/>
+        <Pagination />
         <Brands/>
         <Footer/>
-        <Pagination/>
+       
     </div>
   )
 }

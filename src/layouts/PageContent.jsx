@@ -9,6 +9,7 @@ import FeaturedPost from '../components/FeaturedPost'
 
 
 function PageContent() {
+
   return (
     <div>
      <Brands/>

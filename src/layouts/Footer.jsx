@@ -4,7 +4,8 @@ import FooterBar from '../components/FooterBar';
 
 
 
-function Footer() {
+function Footer(props) {
+  const {className} = props;
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
@@ -18,11 +19,12 @@ function Footer() {
   };
   return (
     <footer className="bg-white text-gray-700 w-full flex flex-col">
-    
-     <FooterBar/>
-    
+     <FooterBar className="bg-white"/> 
+     <hr className='text-[#ececec]'/>
       <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 sm:px-30 gap-8 pt-20 pb-10">
+      
         <section className="flex flex-col min-w-[150px]">
+       
           <h3 className="font-bold mb-2 text-[#252b42]">Company Info</h3>
           <Link className="text-[#737373]" to="">About Us</Link>
           <Link className="text-[#737373]" to="">Career</Link>
