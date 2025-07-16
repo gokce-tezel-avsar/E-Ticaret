@@ -19,9 +19,9 @@ function Footer(props) {
   };
   return (
     <footer className="bg-white text-gray-700 w-full flex flex-col">
-     <FooterBar className="bg-white"/> 
+     <FooterBar className="bg-fafafa"/> 
      <hr className='text-[#ececec]'/>
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 sm:px-30 gap-8 pt-20 pb-10">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 sm:px-60 gap-8 pt-20 pb-10">
       
         <section className="flex flex-col min-w-[150px]">
        
@@ -78,7 +78,7 @@ function Footer(props) {
         </section>
       </div>
       <div className='flex w-full bg-[#FAFAFA] p-6'>
-        <h6 className='text-[#737373] font-bold px-20 text-center'>Made With Love By Finland All Right Reserved </h6>
+        <h6 className='text-[#737373] font-bold px-20 sm:px-60 text-center'>Made With Love By Finland All Right Reserved </h6>
       </div>
     </footer>
   );

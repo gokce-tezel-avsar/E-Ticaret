@@ -6,7 +6,7 @@ import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-sv
 
 function TeamMembers() {
   return (
-    <div>
+    <div className='flex sm:px-50 py-20'>
         <div className='flex flex-col items-center w-full gap-10'>
             <h2 className='text-[#252b42] font-bold text-3xl'>Meet Our Team</h2>
 
