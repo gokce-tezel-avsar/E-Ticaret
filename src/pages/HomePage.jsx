@@ -7,7 +7,7 @@ import Hero from '../components/Hero';
 
 function HomePage() {
   return (
-    <div className="flex flex-col items-center bg-white w-full">
+    <div className="flex flex-col items-center bg-white w-full ">
       <Header/>
       <Hero/>
       <PageContent/>
