@@ -2,15 +2,13 @@ import React from 'react'
 
 function AboutRatings() {
   return (
-    <div className='flex flex-col sm:px-50 py-20'>
+    <div className='flex flex-col sm:px-40 py-20'>
         <div className='flex flex-col sm:flex-row items-center px-10 '>
             <div className='flex flex-col items-center text-center gap-5 pb-10 sm:items-baseline sm:text-left'>
                 <p className='text-[#e74040]'>Problems trying</p>
                 <div className='flex sm:flex-row flex-col gap-10'>
-                <h3 className='text-[#252b42] font-bold text-3xl sm:pr-20'>Met minimum Moliie non desert Alamo est sit cliquey dolor do met sent.</h3>
-
-
-                <p className='text-[#737373] text-center px-10'>Problems trying to reseolve the conflict between the two major realms of Classical physic Newtonian mechanics</p>
+                <h3 className='text-[#252b42] font-bold text-3xl sm:pr-30'>Met minimum Moliie non desert Alamo est sit cliquey dolor do met sent.</h3>
+                <p className='text-[#737373] text-center sm:text-left'>Problems trying to reseolve the conflict between the two major realms of Classical physic Newtonian mechanics</p>
                 </div>
             </div>
          

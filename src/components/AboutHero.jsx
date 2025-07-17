@@ -3,7 +3,7 @@ import abouthero from '../assets/about/abouthero.png'
 
 function AboutHero() {
   return (
-    <div className='flex flex-col sm:flex-row sm:px-30 justify-between sm:w-full'>
+    <div className='flex flex-col sm:flex-row sm:px-20 justify-between sm:w-full'>
         <div className='flex flex-col sm:items-baseline justify-center py-20  items-center gap-15 sm:gap-10 sm:px-30  sm:w-1/2 tracking-wide'>
             <h1 className='font-bold text-[#252b42] hidden sm:inline'>ABOUT COMPANY</h1>
             <h2 className='text-6xl font-bold text-[#252b42]'>ABOUT US</h2>

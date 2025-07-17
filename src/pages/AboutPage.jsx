@@ -6,6 +6,7 @@ import AboutRatings from '../components/AboutRatings'
 import TeamMembers from '../components/TeamMembers'
 import BrandsDetails from '../layouts/BrandsDetails'
 import WorkWithUs from '../components/WorkWithUs'
+import Video from '../components/Video'
 
 function AboutPage() {
   return (
@@ -13,6 +14,7 @@ function AboutPage() {
         <AlternativeHeader/>
         <AboutHero/>
         <AboutRatings/>
+        <Video/>
         <TeamMembers/>
         <BrandsDetails/>
         <WorkWithUs/>

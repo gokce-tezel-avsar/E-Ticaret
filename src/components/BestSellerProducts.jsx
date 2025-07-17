@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {products} from "../data.js"
 
-function BestSellerProducts({className=""}) {
+function BestSellerProducts() {
   return (
-    <div className='flex flex-col w-full px-10 sm:px-30 mt-10 bg-[#fafafa]'>
+    <div className='flex flex-col w-fullbg-[#fafafa] py-20'>
       <h2 className='text-[#252b42] font-bold text-xl my-4 '>BESTSELLER PRODUCTS</h2>
       <hr className='text-[#ececec]'/>
 
-      <div className='flex flex-col sm:flex-row gap-10 sm:flex-wrap overflow-hidden'>
+      <div className='flex flex-col sm:flex-row gap-10 sm:flex-wrap'>
         {products.map((product, index) => (
           <Link
             to="/productDetail"

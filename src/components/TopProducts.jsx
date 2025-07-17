@@ -7,7 +7,7 @@ function TopProducts() {
   return (
   <div className="flex flex-col sm:flex-row items-center sm:justify-center sm:h-auto gap-10 px-10 object-center">
   
-      <div className="sm:h-[600px] sm:w-1/3 relative">
+      <div className="sm:h-[600px] w-1/3 relative">
                 <img
                   src={top1}
                   alt="top1"

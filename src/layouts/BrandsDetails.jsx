@@ -1,8 +1,7 @@
 import React from 'react'
 import Brands from "../components/Brands.jsx"
 
-function BrandsDetails(props) {
-  const {className} = props;
+function BrandsDetails() {
   return (
     <div>
         <div className='flex flex-col bg-[#fafafa] items-center pt-30 sm:py-20 font-bold gap-10'>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function AlternativeHeader() {
           const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="bg-white px-10 py-5 sm:px-60 w-full flex-col align-center">
+    <header className="bg-white px-10 py-5 sm:px-50 w-full flex-col align-center">
     <div className="flex justify-between items-center w-full">
             <div className='sm:flex sm:flex-row sm:items-center sm:gap-30'>
                     <h3 className="text-2xl text-[#252b42] font-bold">Bandage</h3>

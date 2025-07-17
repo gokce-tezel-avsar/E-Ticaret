@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import FooterBar from '../components/FooterBar';
 
-
-
-function Footer(props) {
-  const {className} = props;
+function Footer() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
@@ -19,9 +16,9 @@ function Footer(props) {
   };
   return (
     <footer className="bg-white text-gray-700 w-full flex flex-col">
-     <FooterBar className="bg-fafafa"/> 
-     <hr className='text-[#ececec]'/>
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 sm:px-60 gap-8 pt-20 pb-10">
+     <FooterBar/> 
+     
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap px-10 sm:px-40 gap-8 pt-20 pb-10">
       
         <section className="flex flex-col min-w-[150px]">
        
