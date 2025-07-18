@@ -10,7 +10,12 @@ function HomePage() {
     <div className="flex flex-col items-center bg-white w-full ">
       <Header/>
       <Hero/>
-      <PageContent/>
+      <Brands/>
+     <TopProducts/>
+     <BestSellerProducts/>
+     <FeaturedProduct/>
+     <Services/>
+     <FeaturedPost/>
       <Footer/>
     </div>
 

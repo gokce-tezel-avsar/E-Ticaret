@@ -4,6 +4,7 @@ import heropic from "../assets/hero/heropic.png"
 
 function Hero() {
   return (
+    <div className='flex w-full items-center justify-center'>
         <div className='w-[388px] h-[902px] sm:h-[620px] sm:w-[1292px] rounded-xl bg-linear-to-r from-[#96e9fb] to-[#aaecd7] flex flex-col  sm:flex-row sm:items-center relative my-10'>
                         <div className='flex flex-col items-center p-10 pt-20 gap-4 sm:text-left sm:items-start sm:ml-20 '>
                          <p className="text-[#2a7cc7] font-medium mb-2">SUMMER 2020</p>
@@ -16,15 +17,15 @@ function Hero() {
                         </button>
                         </div>
                 <div className='flex'>
-                   <img src={heromobil} alt="" className='flex sm:hidden'/>
+                   <img src={heromobil} alt="" className='flex sm:hidden absolute bottom-0'/>
                      <img
                     src={heropic}
                     alt="Hero Pic"
-                    className="hidden sm:block absolute top-0 translate-x-20"
+                    className="hidden sm:block absolute top-0 translate-x-10"
                     />
                 </div>
      </div>
-        
+     </div>
   )
 }
 

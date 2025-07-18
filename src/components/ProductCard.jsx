@@ -42,7 +42,7 @@ function ProductCard() {
           <img src={product.image} />
           <h3 className='text-[#252b42] font-bold'>{product.category}</h3>
           <p className='text-[#737373] font-bold'>{product.name}</p>
-          <p className='text-[#bdbdbd]'> {product.price} <span className='text-[#3f866d]'>{product.discountPrice}</span></p>
+          <p className='text-[#bdbdbd]'>{product.price} <span className='text-[#3f866d]'>{product.discountPrice}</span></p>
           </div>
     ))}
 

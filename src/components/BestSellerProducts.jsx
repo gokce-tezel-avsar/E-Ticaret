@@ -4,8 +4,8 @@ import {products} from "../data.js"
 
 function BestSellerProducts() {
   return (
-    <div className='flex flex-col w-fullbg-[#fafafa] py-20'>
-      <h2 className='text-[#252b42] font-bold text-xl my-4 '>BESTSELLER PRODUCTS</h2>
+    <div className='flex flex-col w-fullbg-[#fafafa] py-20 items-center '>
+      <h2 className='text-[#252b42] font-bold text-center sm:text-left text-xl my-4 '>BESTSELLER PRODUCTS</h2>
       <hr className='text-[#ececec]'/>
 
       <div className='flex flex-col sm:flex-row gap-10 sm:flex-wrap'>
